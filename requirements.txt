@@ -1,0 +1,25 @@
+# Core application dependencies
+PyQt6>=6.5.0
+pandas>=2.0.0
+openpyxl>=3.1.0
+PyPDF2>=3.0.0
+pdfplumber>=0.9.0
+python-dotenv>=1.0.0
+pydantic>=2.0.0
+loguru>=0.7.0
+
+# Database dependencies
+SQLAlchemy>=2.0.0
+alembic>=1.12.0
+
+# Development and testing dependencies
+pytest>=7.4.0
+pytest-qt>=4.2.0
+mypy>=1.5.0
+black>=23.0.0
+isort>=5.12.0
+pre-commit>=3.3.0
+
+# Optional: For advanced PDF processing
+tabula-py>=2.7.0
+camelot-py>=0.11.0 
